@@ -1,0 +1,47 @@
+header{
+    height: 60px;
+    background: white;
+    -webkit-box-shadow: 0px 1px 1px 1px rgba(0,0,0,0,0.25);
+    -moz-box-shadow: 0px 1px 1px 1px rgba(0,0,0,0.25);
+    box-shadow: 0px 1px 1px 1px rgba(0,0,0,0.25);
+}
+.logo>img{
+    height: 40px;
+}
+.lock{
+    font-family: 'Overlock SC', cursive;
+}
+#menu>ul>li{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+#menu>ul>li>a{
+    font-size: 1.2rem;
+    color: #067B21;
+    outline: none;
+}
+.present{
+    height: 400px;
+    background: white;
+    display: flex;
+}
+.content{
+    width: 50%;
+    height: 400px;
+    background: rgba(33, 123, 33, 0.7);
+    position: relative;
+    z-index: 10;
+}
+.image{
+    width: 50%;
+    height: 400px;
+    background: rgb(33, 123, 33);
+    border-left: 100px solid rgba(255,255  ,255, 0.3);
+    border-bottom: 400px solid transparent;
+}
+#frame{
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+}
