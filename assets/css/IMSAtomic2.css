@@ -14,6 +14,9 @@ video,html,head,body,header,section,article,a,nav,div,span,p,a,ul,li,strong,main
 	text-decoration: none;
 	list-style-type: none;
 }
+h1{
+  font-size: 2.8em;
+}
 h1,h2,h3,h4,h5,h6,p{
     padding: 5px;
 }
@@ -44,6 +47,9 @@ i{
 }
 .mn_sp{
 	min-height: 15px;
+}
+.xbd{
+  border: none;
 }
 .bd{
 	border:1px solid black;
@@ -142,6 +148,15 @@ border-radius: 0;
 .ovf{
 	overflow: auto;
 }
+/* Color */
+.white{
+  color: white;
+}
+.black{
+  color: black;
+}
+/* End Color */
+
 /* No Treat */
 .ready-motion-none{
     /* if you don't want to use `display:none` */
